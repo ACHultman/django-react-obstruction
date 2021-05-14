@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'djangoProject.urls'
+ROOT_URLCONF = 'obstruction.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'obstruction.wsgi.application'
-
+ASGI_APPLICATION = 'obstruction.routing.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
